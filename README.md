@@ -1,32 +1,29 @@
-# COMO USAR
+# COMO USAR<br />
 
-  • Baixe o projeto em sua máquina;
-  • Navegue até a pasta do repositório;
-  • Execute o comando "yarn start";
+  • Baixe o projeto em sua máquina;<br />
+  • Navegue até a pasta do repositório;<br />
+  • Execute o comando "yarn dev:server";<br />
   
-# DESCRIÇÃO
+# DESCRIÇÃO<br />
 
-Abaixo estão as especificações e requisitos do projeto esperado, lembrando que está permitido 
-utilizar tutoriais da internet como base se assim desejar.
-É importante salientar também que iremos avaliar não só se o projeto foi entregue de forma 
-completa ou não, mas sim sua capacidade de se ater aos requisitos e a sua progressão autodidata 
-com os itens do projeto.
+Abaixo estão as especificações e requisitos do projeto esperado, lembrando que está permitido utilizar tutoriais da internet como base se assim desejar.<br />
+É importante salientar também que iremos avaliar não só se o projeto foi entregue de forma completa ou não, mas sim sua capacidade de se ater aos requisitos e a sua progressão autodidata com os itens do projeto.<br />
 
-ESPECIFICAÇÕES
-  • Criar um cadastro de produto com:
-  • Código: Numérico;
-  • Descrição: Alfanúmerico;
-  • Quantidade: Numérico;
-  • Valor: Numérico.
-  • Valor Total: Numérico (Somente leitura com a multiplicação da quantidade x valor unitário)
-  • Criar botões de Inserção, Edição, Exclusão;
-  • Apresentar tudo isso em uma listagem (Grid);
-  • Tanto a listagem quanto o cadastro podem ficar na mesma tela.
+ESPECIFICAÇÕES<br />
+  • Criar um cadastro de produto com:<br />
+  • Código: Numérico;<br />
+  • Descrição: Alfanúmerico;<br />
+  • Quantidade: Numérico;<br />
+  • Valor: Numérico.<br />
+  • Valor Total: Numérico (Somente leitura com a multiplicação da quantidade x valor unitário)<br />
+  • Criar botões de Inserção, Edição, Exclusão;<br />
+  • Apresentar tudo isso em uma listagem (Grid);<br />
+  • Tanto a listagem quanto o cadastro podem ficar na mesma tela.<br />
 
-REQUISITOS
-  • Os códigos do frontend e backend devem estar separados;
-  • Frontend deve se comunicar com o backend através de API REST (JSON);
-  • Todos os dados deverão ser persistidos em uma base de sua escolha (pode ser local);
-  • Criar um arquivo README com as instruções para rodarmos o projeto;
-  • Criar um repositório no GitHub ou GitLab para hospedar o projeto;
-  • Nos enviar o link do repositório para avaliação.
+REQUISITOS<br />
+  • Os códigos do frontend e backend devem estar separados;<br />
+  • Frontend deve se comunicar com o backend através de API REST (JSON);<br />
+  • Todos os dados deverão ser persistidos em uma base de sua escolha (pode ser local);<br />
+  • Criar um arquivo README com as instruções para rodarmos o projeto;<br />
+  • Criar um repositório no GitHub ou GitLab para hospedar o projeto;<br />
+  • Nos enviar o link do repositório para avaliação.<br />
