@@ -2,7 +2,8 @@
 
   • Baixe o projeto em sua máquina;<br />
   • Navegue até a pasta do repositório;<br />
-  • Execute o comando "yarn dev:server";<br />
+  • Execute o comando "yarn install" para instalar as dependências do projeto;<br />
+  • Execute o comando "yarn start" para iniciar o projeto;<br />
   
 # DESCRIÇÃO<br />
 
