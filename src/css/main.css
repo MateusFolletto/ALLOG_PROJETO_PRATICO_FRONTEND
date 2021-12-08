@@ -1,0 +1,279 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: inline;
+}
+
+.App .loading-screen {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.App .container-app {
+  width: 75%;
+  overflow: auto;
+  background-color: #f3f3f3;
+  border-radius: 1em;
+  padding: 1em;
+  margin: auto;
+}
+
+.App .container-app .container-row-1 {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.App .container-app .container-row-1 .modal-spam {
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .container-app .container-row-2 {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .container-app .container-row-2 .container-field-1 {
+  background-color: orange;
+  width: 50%;
+}
+
+.App .container-app .container-row-2 .container-field-1 .label-field {
+  width: 100%;
+}
+
+.App .container-app .container-row-2 .container-field-1 .input-field {
+  border-radius: 1em;
+  height: 1.2em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #dbdbdb;
+}
+
+.App .container-app .container-row-3 {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.App .container-app .container-row-3 .container-field-2 {
+  width: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.App .container-app .container-row-3 .container-field-2 .label-field {
+  width: 100%;
+}
+
+.App .container-app .container-row-3 .container-field-2 .input-field {
+  border-radius: 1em;
+  height: 1.2em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: #dbdbdb;
+}
+
+.App .container-app .container-row-4 {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.App .container-app .container-row-4 .button-cadastro {
+  border-radius: 1em;
+  margin-right: 1em;
+  width: 10em;
+  height: 2em;
+  border: none;
+  font-weight: 600;
+  background-color: lime;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  outline: none;
+}
+
+.App .container-app .container-row-4 .button-cadastro:hover {
+  background-color: #008500;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App .container-app .container-row-4 .button-cadastro:active {
+  background-color: #b4ffb4;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App .container-app .container-row-4 .button-cadastro:disabled {
+  background-color: #b6b6b6;
+  color: gray;
+  cursor: unset;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App .container-app .container-row-4 .button-cancelamento {
+  border-radius: 1em;
+  margin-left: 1em;
+  width: 10em;
+  height: 2em;
+  border: none;
+  font-weight: 600;
+  background-color: palevioletred;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  outline: none;
+}
+
+.App .container-app .container-row-4 .button-cancelamento:hover {
+  background-color: #8d3653;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App .container-app .container-row-4 .button-cancelamento:active {
+  background-color: #eea7be;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App .container-app .container-row-4 .button-cancelamento:disabled {
+  background-color: #b6b6b6;
+  color: gray;
+  cursor: unset;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App .container-app .container-row-5 .table-principal {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-header {
+  width: 100%;
+  background-color: cadetblue;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-header .table-cell-header {
+  text-align: left;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content {
+  max-height: 10em;
+  overflow: auto;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content:nth-child(odd) {
+  background-color: #dbdbdb;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-editar {
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-editar path {
+  fill: lime;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-editar:hover path {
+  fill: #008500;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-editar:active path {
+  fill: #b4ffb4;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-editar:disabled {
+  cursor: unset;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-editar:disabled path {
+  fill: #b6b6b6;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-excluir {
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-excluir path {
+  fill: palevioletred;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-excluir:hover path {
+  fill: #8d3653;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-excluir:active path {
+  fill: #eea7be;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-excluir:disabled {
+  cursor: unset;
+}
+
+.App .container-app .container-row-5 .table-principal .table-body .table-row-content .table-cell-content .button-excluir:disabled path {
+  fill: #b6b6b6;
+}
+/*# sourceMappingURL=main.css.map */
